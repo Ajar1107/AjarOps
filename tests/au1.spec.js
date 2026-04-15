@@ -61,7 +61,7 @@ console.log(page.locator("#username").inputValue());
 await npage.waitForLoadState("networkidle");
 await page.locator("[value = 'Sign In']").click();
 
-await page.pause();
+//await page.pause();
 
 
 
