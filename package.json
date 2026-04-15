@@ -1,0 +1,30 @@
+{
+  "name": "pw_new",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "APITest": "npx playwright test --grep @api ",
+    "AllTests": "npx playwright test",
+    "MozillaTest": "npx playwright  test --config playwright.config1.js --project=firefox"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.8.1",
+    "@playwright/cli": "^0.1.7",
+    "exceljs": "^4.4.0"
+  },
+  "devDependencies": {
+    "@azure/identity": "^4.13.1",
+    "@azure/playwright": "^1.1.4",
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.6.0",
+    "allure-playwright": "^3.6.0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["ES2020"],
+    "types": ["node", "@playwright/test"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "noEmit": true,
+    "ignoreDeprecations": "6.0"
+  },
+  "include": ["tests/**/*.ts", "PageObjects1/**/*.ts", "utils_ts/**/*.ts"],
+  "exclude": ["node_modules", "allure-report"]
+}

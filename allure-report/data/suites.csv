@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","9459","@API second run","","2026-03-31","passed","2026-03-31","","CopyAPI.spec.js","",""
+"","2759","@API first run","","2026-03-31","passed","2026-03-31","","API2.spec.js","",""
+"","9114","@API second run","","2026-03-31","passed","2026-03-31","","API1.spec.js","",""
